@@ -19,7 +19,7 @@ class AlertaRelativo {
 
 class AlertaAbsoluto {
   + ajustar(hor)
-  constructor(desc, hor)
+  constructor(desc, horAbs)
 }
 
 class ClassFim {
