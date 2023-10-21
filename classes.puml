@@ -13,7 +13,7 @@ class Alerta <<abstract>> {
   + string descricao
   + cancelar()
   + ajustar(hor)
-  constructor(desc, hor)
+  constructor(desc, horAbs)
 }
 note left of Alerta : Alerta programado.\n\nPossui uma descrição que é\nexibida com a conclusão do\ntimer, na forma de um alerta.
 
@@ -22,7 +22,6 @@ class AlertaRelativo {
   + ajustar(horExpr)
   + string: getTempoRestante()
 }
-
 
 class ClassFim {
   - int cont
