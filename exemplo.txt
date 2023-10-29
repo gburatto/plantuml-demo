@@ -1,5 +1,4 @@
 Arquivo de exemplo para verificação de merge conflicts.
 
 Linha 1
-Linha 2
 Linha 3
